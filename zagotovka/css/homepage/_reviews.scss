@@ -1,0 +1,202 @@
+.reviews{
+	background: $grey-background;
+	padding-top: 90px;
+	.heading_reviews{
+		text-align: center;
+		h2 {
+			text-transform: uppercase;
+			position: relative;
+			display: inline-block;
+			padding: 15px 40px;
+			margin-bottom: 50px;
+		}
+	}
+
+	.owl-carousel{
+		margin-bottom: 65px;
+		.item {
+			margin:0 32px;
+			.item_reviews{
+				padding: 50px 40px 50px 60px;
+				background-color: #fff;
+				position: relative;
+				.quotes{
+					position: absolute;
+					top: 11%;
+					left: 3%;
+					padding: 0;
+					font-style: italic;
+					font-weight: normal;
+					font-size: 48px;
+					line-height: 56px;
+					color: $orange;
+				}
+
+				.reviews_text{
+				font-style: italic;
+				height: 125px;
+				margin-bottom: 0;
+				overflow-y: auto;
+				}
+
+				i{
+					position: absolute;
+					top: 97%;
+					left: 0%;
+					color: #fff;
+					font-size: 100px;
+				}
+			}
+
+			.name_reviews{
+				text-align: center;
+				font-style: normal;
+				font-weight: 500;
+				font-size: 16px;
+				line-height: 19px;
+				margin-bottom: 50px;
+				margin-top: 20px;
+			}
+		}
+
+		.owl-dots{
+			width: 100%;
+			display: flex;
+			justify-content: center;
+			margin-top: -45px;
+			position: absolute;
+	
+			.owl-dot{
+			
+				width: 15px;
+				height: 15px;
+				border-radius: 50px;
+				background: #fff;
+				margin: 0px 13px;
+				border: 2px solid #9F9F9F;
+				box-sizing: border-box;
+	
+			}
+	
+			.active{
+				background: #9F9F9F;
+				border: 2px solid #9D9D9D;
+				box-sizing: border-box;
+			}	
+			
+			span{
+				display: none;
+			}
+		}
+	}
+}
+
+
+
+
+@media (max-width: 1600px) {
+  
+}
+
+
+
+@media (max-width: 1440px) {
+  
+}
+
+
+
+@media (max-width: 1366px) {
+  
+}
+
+
+
+@media (max-width: 1280px) {
+  
+}
+
+
+
+@media (max-width: 1200px) {
+  
+}
+
+
+@media (max-width: 992px) {
+  
+}
+
+
+
+@media (max-width: 900px) {
+  
+}
+
+
+
+@media (max-width: 800px) {
+  
+}
+
+
+
+@media (max-width: 768px) {
+  
+}
+
+
+@media (max-width: 767px) {
+  .leftFilters{
+		display: none;
+	}
+	.newsPage .news_right .news_list{
+		margin-bottom: 40px;
+	}
+}
+
+
+
+@media (max-width: 600px) {
+  
+}
+
+
+
+@media (max-width: 576px) {
+  
+}
+
+
+
+@media (max-width: 480px) {
+  
+}
+
+
+
+@media (max-width: 425px) {
+  
+}
+
+
+@media (max-width: 414px) {
+  
+}
+
+
+
+@media (max-width: 375px) {
+
+}
+
+
+
+@media (max-width: 360px) {
+  
+}
+
+
+@media (max-width: 320px) {
+
+}

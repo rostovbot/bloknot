@@ -168,3 +168,310 @@ $(".wrapper .tab").click(function() {
 
 
 
+
+
+
+    // Кнопка обратного звонка
+	$(".registration_wrap_link").click(function(){
+		
+		$(".modal_overlay").slideDown(600);
+
+		$(".modal_uslugi").delay(800).fadeIn(700);
+	});
+
+	$(".modal_overlay").click(function(){
+		
+		$(".modal_overlay").slideUp(600);
+
+		$(".modal_uslugi").fadeOut(500);
+		return false;
+	});
+	// Кнопка обратного звонка END
+
+		// обработка формы заказа услуги
+		$('form#uslugi').submit(function(){
+
+			$('.order_uslugi').attr('disabled', true);
+			var th = $(this);
+	
+			$.ajax({
+					url: 'mail_application.php',
+					type: 'POST',
+					dataType: 'html',
+					data: th.serialize()
+			})
+					.done(function() {
+							console.log("success");
+	
+							setTimeout(function(){
+								$(".modal_uslugi").fadeOut(1100);
+							},700);
+	
+							setTimeout(function(){
+								$(".modal_01").slideDown(700);
+							},2000);
+	
+							setTimeout(function(){
+								$(".modal_01").slideUp(700);
+							},6000);
+	
+							setTimeout(function(){
+								$(".modal_overlay").slideUp(700);
+							},7000);
+	
+							setTimeout(function(){
+									th.trigger("reset");
+									$('.order_uslugi').attr('disabled', false);
+							},7500);
+					})
+	
+					.fail(function() {
+							console.log("error");
+							// alert('Ошибочка');
+					});
+	
+			return false;
+		});
+		// обработка формы заказа услуги END
+
+
+
+
+
+	// Кнопка обратного звонка
+	$(".registration_link_01").click(function(){
+		
+		$(".modal_overlay").slideDown(600);
+
+		$(".modal_tarif_01").delay(800).fadeIn(700);
+	});
+
+	$(".modal_overlay").click(function(){
+		
+		$(".modal_overlay").slideUp(600);
+
+		$(".modal_tarif_01").fadeOut(500);
+		return false;
+	});
+	// Кнопка обратного звонка END
+
+			// обработка формы заказа услуги с тарифом базовый
+	$('form#uslugi_tarif_01').submit(function(){
+
+		$('.order_tarif_01').attr('disabled', true);
+		var th = $(this);
+
+		$.ajax({
+				url: 'mail_application.php',
+				type: 'POST',
+				dataType: 'html',
+				data: th.serialize()
+		})
+				.done(function() {
+						console.log("success");
+
+						setTimeout(function(){
+							$(".modal_tarif_01").fadeOut(1100);
+						},700);
+
+						setTimeout(function(){
+							$(".modal_01").slideDown(700);
+						},2000);
+
+						setTimeout(function(){
+							$(".modal_01").slideUp(700);
+						},6000);
+
+						setTimeout(function(){
+							$(".modal_overlay").slideUp(700);
+						},7000);
+
+						setTimeout(function(){
+								th.trigger("reset");
+								$('.order_tarif_01').attr('disabled', false);
+						},7500);
+				})
+
+				.fail(function() {
+						console.log("error");
+						// alert('Ошибочка');
+				});
+
+		return false;
+	});
+	// обработка формы заказа услуги с тарифом базовый END
+
+
+
+
+	// Кнопка обратного звонка
+	$(".registration_link_02").click(function(){
+		
+		$(".modal_overlay").slideDown(600);
+
+		$(".modal_tarif_02").delay(800).fadeIn(700);
+	});
+
+	$(".modal_overlay").click(function(){
+		
+		$(".modal_overlay").slideUp(600);
+
+		$(".modal_tarif_02").fadeOut(500);
+		return false;
+	});
+	// Кнопка обратного звонка END
+
+		// обработка формы заказа услуги с тарифом стандарт
+		$('form#uslugi_tarif_02').submit(function(){
+
+			$('.order_tarif_02').attr('disabled', true);
+			var th = $(this);
+	
+			$.ajax({
+					url: 'mail_application.php',
+					type: 'POST',
+					dataType: 'html',
+					data: th.serialize()
+			})
+					.done(function() {
+							console.log("success");
+	
+							setTimeout(function(){
+								$(".modal_tarif_02").fadeOut(1100);
+							},700);
+	
+							setTimeout(function(){
+								$(".modal_01").slideDown(700);
+							},2000);
+	
+							setTimeout(function(){
+								$(".modal_01").slideUp(700);
+							},6000);
+	
+							setTimeout(function(){
+								$(".modal_overlay").slideUp(700);
+							},7000);
+	
+							setTimeout(function(){
+									th.trigger("reset");
+									$('.order_tarif_02').attr('disabled', false);
+							},7500);
+					})
+	
+					.fail(function() {
+							console.log("error");
+							// alert('Ошибочка');
+					});
+	
+			return false;
+		});
+		// обработка формы заказа услуги с тарифом стандарт END
+
+
+
+
+
+	// Кнопка обратного звонка
+	$(".registration_link_03").click(function(){
+		
+		$(".modal_overlay").slideDown(600);
+
+		$(".modal_tarif_03").delay(800).fadeIn(700);
+	});
+
+	$(".modal_overlay").click(function(){
+		
+		$(".modal_overlay").slideUp(600);
+
+		$(".modal_tarif_03").fadeOut(500);
+		return false;
+	});
+	// Кнопка обратного звонка END
+
+					// обработка формы заказа услуги с тарифом под ключ
+	$('form#uslugi_tarif_03').submit(function(){
+
+		$('.order_tarif_03').attr('disabled', true);
+		var th = $(this);
+
+		$.ajax({
+				url: 'mail_application.php',
+				type: 'POST',
+				dataType: 'html',
+				data: th.serialize()
+		})
+				.done(function() {
+						console.log("success");
+
+						setTimeout(function(){
+							$(".modal_tarif_03").fadeOut(1100);
+						},700);
+
+						setTimeout(function(){
+							$(".modal_01").slideDown(700);
+						},2000);
+
+						setTimeout(function(){
+							$(".modal_01").slideUp(700);
+						},6000);
+
+						setTimeout(function(){
+							$(".modal_overlay").slideUp(700);
+						},7000);
+
+						setTimeout(function(){
+								th.trigger("reset");
+								$('.order_tarif_03').attr('disabled', false);
+						},7500);
+				})
+
+				.fail(function() {
+						console.log("error");
+						// alert('Ошибочка');
+				});
+
+		return false;
+	});
+	// обработка формы заказа услуги с тарифом под ключ END
+
+
+
+		// обработка формы Оставить заявку на странице отдельной услуги
+		$('form#form_application').submit(function(){
+
+			$('.link_application').attr('disabled', true);
+			var th = $(this);
+	
+			$.ajax({
+					url: 'mail_application.php',
+					type: 'POST',
+					dataType: 'html',
+					data: th.serialize()
+			})
+					.done(function() {
+							console.log("success");
+							setTimeout(function(){
+								$(".modal_01").slideDown(700);
+							},1000);
+	
+							setTimeout(function(){
+								$(".modal_01").slideUp(700);
+							},7000);
+	
+	
+							setTimeout(function(){
+									th.trigger("reset");
+									$('.link_application').attr('disabled', false);
+							},7500);
+					})
+	
+					.fail(function() {
+							console.log("error");
+							// alert('Ошибочка');
+					});
+	
+			return false;
+		});
+		// обработка формы Оставить заявку на странице отдельной услуги END
+
+

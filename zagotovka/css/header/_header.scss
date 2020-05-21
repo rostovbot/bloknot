@@ -1,0 +1,316 @@
+
+header{
+
+	.top_header{
+		position: relative;
+		z-index: 100;
+		display: flex;
+		justify-content: space-between;
+		padding: 8px 20px 8px 20px;
+		background-color: #fff;
+		.social{
+			display: flex;
+			margin-bottom: 0;
+			li{
+				margin-right: 20px;
+				font-size: 22px;
+				i{
+					color: $black;	
+				}
+			}
+		}
+
+		.phones{
+			a{
+				font-family: $ro;
+				font-style: normal;
+				font-weight: bold;
+				font-size: 16px;
+				line-height: 19px;
+				color: $black;
+				i{
+					margin-right: 10px;
+					font-size: 20px;
+				}
+			}
+		}
+
+		.search_side{
+			width: 270px;
+			.searchInput{
+				background: #E8E8E8;
+				border: 1px solid #C8C8C8;
+				box-sizing: border-box;
+				border-radius: 3px;
+				padding-left: 15px;
+				overflow: hidden;
+				width: 95%;
+			}
+
+			.poisk{
+				background: #E8E8E8;
+				border: 1px solid #C8C8C8;
+				box-sizing: border-box;
+				border-radius: 3px;
+				margin-left: -45px;
+				border: none;
+			}
+		}
+	}
+
+	.bottom_header_aktiv{
+		// display: none !important;
+		transition: .01s;
+		transform: translateY(-100%) !important;
+	}
+
+	.bottom_header{
+		transform: translateY(0%);
+		position: relative;
+		z-index: 100;
+		background-color: $black;
+		display: flex;
+		justify-content: space-between;
+		.logo{
+			margin-left: 20px;
+			margin-top: auto;
+			margin-bottom: auto;
+			img{
+				width: 100%;
+			}
+		}
+		.wrap_menu{
+			margin-top: 35px;
+			margin-bottom: 35px;
+			margin-right: 40px;
+
+			.main_menu{
+				display: block;
+				text-align: right;
+				margin-bottom: 20px;
+				ul{
+					li{
+						display: inline-block;
+						a{
+							color: #fff;
+							font-style: normal;
+							font-weight: bold;
+							font-size: 18px;
+							line-height: 21px;
+							text-transform: uppercase;
+						}
+					}
+
+					.delimiter{
+						color: $orange;
+						padding: 0 10px;
+					}
+				}
+			}
+
+			.top_menu{
+				display: block;
+				text-align: right;
+				.sf-menu{
+					margin-bottom: 0px;
+					margin-top: 5px;
+					.top_menu_activ{
+						a{
+							color: $orange;
+						}
+					}
+					li{
+						display: inline-block;
+						background: none;
+						a{
+							color: #fff;
+							padding-top: 5px;
+							padding-bottom: 5px;
+							border: none;
+							font-style: normal;
+							font-weight: normal;
+							font-size: 16px;
+							line-height: 19px;
+							&::after {
+								border-top-color: $orange;
+							}
+						}
+
+						&:hover {
+							background-color: $orange;	
+							a{
+								color: #fff;
+								&::after {
+									border-top-color: #fff;
+								}
+
+							}
+						}
+					
+
+						ul{
+							margin-top: -1px;
+							li{
+								display: block;
+								text-align: left;
+								background-color: $orange;
+								border: 1px solid #fff;
+
+								a{
+									color:#fff;
+									padding-top: 7px;
+									padding-bottom: 7px;
+									&::after {
+										border-top-color: $orange !important;
+										border-left-color: #fff;
+									}
+								}
+
+								&:hover {
+									background: $orange-hover;
+									a{
+										color: #fff;
+										&::after {
+											border-top-color: $orange;
+										}
+		
+									}
+								}
+							}
+						}
+					}
+				}
+
+				.back_call{
+					font-style: normal;
+					font-weight: bold;
+					font-size: 16px;
+					line-height: 19px;
+					text-align: center;
+					color: #fff;
+					background: $orange;
+					padding: 10px 30px;
+					border-radius: 3px;
+					display: inline-block;
+					margin-left: 20px;
+
+					&:hover {
+						background: $orange-hover;
+					}
+				}
+			}
+		}
+	}
+}
+
+
+
+@media (max-width: 1600px) {
+  
+}
+
+
+
+@media (max-width: 1440px) {
+  
+}
+
+
+
+@media (max-width: 1366px) {
+  
+}
+
+
+
+@media (max-width: 1280px) {
+  
+}
+
+
+
+@media (max-width: 1200px) {
+  
+}
+
+
+@media (max-width: 992px) {
+  
+}
+
+
+
+@media (max-width: 900px) {
+  
+}
+
+
+
+@media (max-width: 800px) {
+  
+}
+
+
+
+@media (max-width: 768px) {
+  
+}
+
+
+@media (max-width: 767px) {
+  .leftFilters{
+		display: none;
+	}
+	.newsPage .news_right .news_list{
+		margin-bottom: 40px;
+	}
+}
+
+
+
+@media (max-width: 600px) {
+  
+}
+
+
+
+@media (max-width: 576px) {
+  
+}
+
+
+
+@media (max-width: 480px) {
+  
+}
+
+
+
+@media (max-width: 425px) {
+  
+}
+
+
+@media (max-width: 414px) {
+  
+}
+
+
+
+@media (max-width: 375px) {
+
+}
+
+
+
+@media (max-width: 360px) {
+  
+}
+
+
+@media (max-width: 320px) {
+
+}
+
+
+

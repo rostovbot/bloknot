@@ -1,0 +1,179 @@
+.subscription{
+	text-align: center;
+	background-image: url('../img/subscription.jpg');
+	background-repeat: no-repeat;
+	padding-top: 90px;
+	padding-bottom: 150px;
+	position: relative;
+
+
+	.line_1{
+		position: absolute;
+		top: 63%;
+		left: 0;
+		width: 34%;
+		z-index: 101;
+		.line{
+			background-color: $orange;
+			// width: 450px;
+			height: 5px;
+			margin-bottom: 5px;
+		}
+	}
+
+	.subscription_wrap{
+		position: relative;
+		z-index: 101;
+		h2{
+			color: #fff;
+			text-transform: uppercase;
+		}
+
+		h5{
+			font-weight: normal;
+			color: #fff;
+			margin-bottom: 150px;
+
+			span{
+				color: $orange
+			}
+		}
+
+		.subscription_link{
+			font-style: normal;
+			font-weight: normal;
+			font-size: 18px;
+			line-height: 21px;
+			text-align: center;
+			color: #fff;
+			background: $orange;
+			padding: 10px 110px;
+			border-radius: 3px;
+			display: inline-block;
+
+			&:hover {
+				background: $orange-hover;
+			}
+		}
+	}
+
+	.subscription_overlay{
+		position: absolute;
+		top: 0;
+		left: 0;
+		width: 100%;
+		height: 100%;
+		background: rgba(0, 0, 0, 0.6);
+	}
+}
+
+
+
+
+
+@media (max-width: 1600px) {
+  
+}
+
+
+
+@media (max-width: 1440px) {
+  
+}
+
+
+
+@media (max-width: 1366px) {
+  
+}
+
+
+
+@media (max-width: 1280px) {
+  
+}
+
+
+
+@media (max-width: 1200px) {
+  
+}
+
+
+@media (max-width: 992px) {
+  
+}
+
+
+
+@media (max-width: 900px) {
+  
+}
+
+
+
+@media (max-width: 800px) {
+  
+}
+
+
+
+@media (max-width: 768px) {
+  
+}
+
+
+@media (max-width: 767px) {
+  .leftFilters{
+		display: none;
+	}
+	.newsPage .news_right .news_list{
+		margin-bottom: 40px;
+	}
+}
+
+
+
+@media (max-width: 600px) {
+  
+}
+
+
+
+@media (max-width: 576px) {
+  
+}
+
+
+
+@media (max-width: 480px) {
+  
+}
+
+
+
+@media (max-width: 425px) {
+  
+}
+
+
+@media (max-width: 414px) {
+  
+}
+
+
+
+@media (max-width: 375px) {
+
+}
+
+
+
+@media (max-width: 360px) {
+  
+}
+
+
+@media (max-width: 320px) {
+
+}

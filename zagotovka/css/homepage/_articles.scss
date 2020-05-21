@@ -1,0 +1,195 @@
+.articles{
+	padding-top: 80px;
+	padding-bottom: 110px;
+	background: $grey-background;
+	.heading_articles{
+		text-align: center;
+		h2 {
+			text-transform: uppercase;
+			position: relative;
+			display: inline-block;
+			padding: 15px 40px;
+			margin-bottom: 50px;
+		}
+	}	
+
+	.articles_slider{
+		.item{
+			.item_articles{
+				.item_articles_left{
+					img{
+						width: 100%;
+					}
+				}
+
+				.item_articles_right{
+					h5{
+						height: 80px;
+						overflow: hidden;
+					}
+					p{
+						font-size: 17px;
+						height: 85px;
+						overflow: hidden;
+					}
+					a{
+						font-style: normal;
+						font-weight: bold;
+						font-size: 18px;
+						line-height: 21px;
+						text-align: center;
+						color: #fff;
+						background: $orange;
+						padding: 10px 55px;
+						border-radius: 3px;
+						display: inline-block;
+			
+						&:hover {
+							background: $orange-hover;
+						}
+					}
+				}
+			}
+
+			.articles_link{
+				text-align: right;
+				margin-top: 65px;
+				margin-right: 40px;
+				a{
+					font-style: normal;
+					font-weight: bold;
+					font-size: 22px;
+					line-height: 26px;
+					text-align: center;
+					color: #000000;
+		
+					&:hover {
+						color: $orange;
+					}
+				}
+			}
+		}
+
+		.owl-dots{
+			margin-top: -18px !important;
+			width: 20%;
+			left: 40%;
+			.owl-dot{
+				span{
+					display: none;
+				}
+			}
+		}
+	}
+}
+
+
+
+@media (max-width: 1600px) {
+  
+}
+
+
+
+@media (max-width: 1440px) {
+  
+}
+
+
+
+@media (max-width: 1366px) {
+  
+}
+
+
+
+@media (max-width: 1280px) {
+  
+}
+
+
+
+@media (max-width: 1200px) {
+  
+}
+
+
+@media (max-width: 992px) {
+  
+}
+
+
+
+@media (max-width: 900px) {
+  
+}
+
+
+
+@media (max-width: 800px) {
+  
+}
+
+
+
+@media (max-width: 768px) {
+  
+}
+
+
+@media (max-width: 767px) {
+  .leftFilters{
+		display: none;
+	}
+	.newsPage .news_right .news_list{
+		margin-bottom: 40px;
+	}
+}
+
+
+
+@media (max-width: 600px) {
+  
+}
+
+
+
+@media (max-width: 576px) {
+  
+}
+
+
+
+@media (max-width: 480px) {
+  
+}
+
+
+
+@media (max-width: 425px) {
+  
+}
+
+
+@media (max-width: 414px) {
+  
+}
+
+
+
+@media (max-width: 375px) {
+
+}
+
+
+
+@media (max-width: 360px) {
+  
+}
+
+
+@media (max-width: 320px) {
+
+}
+
+

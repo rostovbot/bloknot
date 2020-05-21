@@ -1,0 +1,222 @@
+.activ_slider_top{
+	margin-top: -35px;
+}
+
+.owl-carousel{
+
+	.item{
+		
+		img{
+			position: relative;
+			width: 100%;
+		}
+
+		.line_1{
+			position: absolute;
+			top: 24%;
+			left: 0;
+			width: 23%;
+			.line{
+				background-color: $orange;
+				// width: 450px;
+				height: 5px;
+				margin-bottom: 5px;
+			}
+		}
+
+		h1{
+			position: absolute;
+			top: 23%;
+			left: 25%;
+			text-transform: uppercase;
+		}
+
+		.desc_slide{
+			position: absolute;
+			top: 33%;
+			left: 25%;
+			margin-top: 10px;
+			p{
+				font-style: normal;
+				font-weight: normal;
+				font-size: 20px;
+				line-height: 23px;
+				margin-bottom: 0;
+			}
+		}
+
+		.slider_top_link{
+			position: absolute;
+			top: 57%;
+			left: 25%;
+			font-style: normal;
+			font-weight: normal;
+			font-size: 18px;
+			line-height: 21px;
+			text-align: center;
+			color: #fff;
+			background: $orange;
+			padding: 13px 110px;
+			border-radius: 3px;
+			display: inline-block;
+
+			&:hover {
+				background: $orange-hover;
+			}
+		}
+
+		.line_2{
+			position: absolute;
+			top: 58%;
+			right: 0;
+			width: 49%;
+			.line{
+				background-color: $orange;
+				height: 5px;
+				margin-bottom: 5px;
+			}
+		}
+	}
+
+
+
+	.owl-dots{
+		width: 100%;
+		display: flex;
+		justify-content: center;
+		margin-top: -45px;
+		position: absolute;
+
+		.owl-dot{
+		
+			width: 15px;
+			height: 15px;
+			border-radius: 50px;
+			background: #fff;
+			margin: 0px 13px;
+			border: 2px solid #9F9F9F;
+			box-sizing: border-box;
+
+		}
+
+		.active{
+			background: #9F9F9F;
+			border: 2px solid #9D9D9D;
+			box-sizing: border-box;
+		}		
+	}
+
+	.owl-nav{
+		display: none;
+	}
+}
+
+
+
+
+@media (max-width: 1600px) {
+  
+}
+
+
+
+@media (max-width: 1440px) {
+  
+}
+
+
+
+@media (max-width: 1366px) {
+  
+}
+
+
+
+@media (max-width: 1280px) {
+  
+}
+
+
+
+@media (max-width: 1200px) {
+  
+}
+
+
+@media (max-width: 992px) {
+  
+}
+
+
+
+@media (max-width: 900px) {
+  
+}
+
+
+
+@media (max-width: 800px) {
+  
+}
+
+
+
+@media (max-width: 768px) {
+  
+}
+
+
+@media (max-width: 767px) {
+  .leftFilters{
+		display: none;
+	}
+	.newsPage .news_right .news_list{
+		margin-bottom: 40px;
+	}
+}
+
+
+
+@media (max-width: 600px) {
+  
+}
+
+
+
+@media (max-width: 576px) {
+  
+}
+
+
+
+@media (max-width: 480px) {
+  
+}
+
+
+
+@media (max-width: 425px) {
+  
+}
+
+
+@media (max-width: 414px) {
+  
+}
+
+
+
+@media (max-width: 375px) {
+
+}
+
+
+
+@media (max-width: 360px) {
+  
+}
+
+
+@media (max-width: 320px) {
+
+}
